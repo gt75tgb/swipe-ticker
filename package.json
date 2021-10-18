@@ -1,21 +1,11 @@
 {
   "name": "swipeticker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "17.0.1",
-    "react-native": "0.64.2"
-  },
-  "jest": {
-    "preset": "react-native"
+    "react": "^17.0.1",
+    "react-native": "^0.64.2"
   },
   "main": "react-native-swipe-ticker/index.js",
   "repository": {
