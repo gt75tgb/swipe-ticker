@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import SwipeTicker from './react-native-swipe-ticker';
 
-const App = () => {
+const Example = () => {
 
 const [playerCount, setPlayerCount] = React.useState(2);
 const midBarAnim = React.useRef(new Animated.Value(Dimensions.get('window').width*0.5)).current;
@@ -198,4 +198,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default Example;

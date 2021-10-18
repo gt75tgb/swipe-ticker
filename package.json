@@ -1,7 +1,7 @@
 {
   "name": "swipeticker",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -26,5 +26,17 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "react-native-swipe-ticker/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gt75tgb/swipe-ticker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gt75tgb/swipe-ticker/issues"
+  },
+  "homepage": "https://github.com/gt75tgb/swipe-ticker#readme",
+  "description": ""
 }
